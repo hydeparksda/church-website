@@ -6,7 +6,9 @@ const MainNav = () => {
   return (
     <div>
       <Navbar collapseOnSelect>
-      hello
+        <Nav>
+          <NavItem></NavItem>
+        </Nav>
       </Navbar>
     </div>
   )
