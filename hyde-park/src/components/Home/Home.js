@@ -1,8 +1,12 @@
 import React from 'react';
-
+import MainNav from '../MainNav/MainNav';
+import './Home.css'
 const Home = () => {
     return (
-        <h1>Hello</h1>
+        <div>
+            <MainNav />
+            <h1 className="testing">Hello</h1>
+        </div>
     )
 }
 
