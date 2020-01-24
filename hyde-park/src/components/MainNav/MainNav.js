@@ -1,17 +1,19 @@
 import React from 'react';
 import './MainNav.css'
-//import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
-//import { Navbar, Nav, NavItem, NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
-const MainNav = () => {
-  return (
-    <div className="main-nav">
+import ourLogo from '../../Logos/HydeParkLogo-02.png'
+
+const MainNav = () => (
+  <div className="main_nav">
+    <nav className="navigation">
       <ul>
-        <li><a href="#news">News</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a className="active" href="#home">Home</a></li>
+       <li className="logo_container"><a href="#"><img src={ourLogo}/></a></li>
+        <li><a className="list_link" href="#">About Us</a></li>
+        <li><a className="list_link" href="#">Sermons</a></li>
+        <li><a className="list_link" href="#">Events</a></li>
+        <li><a className="list_link" href="#">Give</a></li>
       </ul>
-    </div>
-  )
-}
+    </nav>
+  </div>
+)
 
 export default MainNav;

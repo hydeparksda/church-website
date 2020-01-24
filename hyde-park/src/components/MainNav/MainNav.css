@@ -1,30 +1,67 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-  }
-  
-  li {
-    float: right;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #111;
-  }
-  
-  .active {
-    background-color: rgb(250, 145, 8);
-  }
+/* GLOBAL STYLES */
+.logo {
+  height:100%;
+  width: 100%;
+}
+.list_link {
+ color: white;
+ font-weight: 600;
+ letter-spacing: 2px;
+ text-decoration: none;
+ background: black;
+ padding: 45px 5px;
+ display: inline-block;
+ width: 100%;
+ text-align: center;
+}
+.logo_container {
+   background: black;
+}
+li img {
+   width: 80px;
+   height:inherit;
+   background: black;
+}
+.list_link:hover {
+ background:#d5a93b;
+}
+
+
+.navigation ul {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ display: flex;
+}
+
+.navigation li {
+ flex: 3;    
+}
+
+.navigation .user {
+ flex: 1;
+}
+
+@media all and (max-width: 1000px) {
+ .navigation ul {
+    flex-wrap: wrap;
+ }
+ 
+ .navigation li {
+    flex: 1 1 50%;
+ }
+
+ .navigation .user {
+    flex: 1 1 33.33%;
+ }
+}
+
+@media all and (max-width: 480px) {
+ .navigation li {
+    flex-basis: 100%;
+ }
+
+ .navigation .user {
+    flex-basis: 50%;
+ }
+}
