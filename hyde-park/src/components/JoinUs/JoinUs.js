@@ -4,11 +4,7 @@ import './JoinUs.css'
 const JoinUs = () => {
   return (
     <div className="join-us">
-
-          <span>Join Us</span>
-          <h3>Every Sabbath</h3>
-          <h5>9:30AM</h5>
-  
+          <span>Join Us<span className="EverySabbath">Every Sabbath</span> 9:30am</span>
     </div>
   )
 }

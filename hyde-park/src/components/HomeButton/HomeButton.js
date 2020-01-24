@@ -1,10 +1,11 @@
 import React from 'react';
 import './HomeButton.css'
 
-const HomeButton = () => {
+const HomeButton = props => {
+  const {title} = props;
   return (
     <div className="home-button">
-      New Button
+      {title}
     </div>
   )
 }

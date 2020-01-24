@@ -10,10 +10,9 @@ const Home = () => {
         <div>
             <MainNav />
             <HomeVideoBackground />
-            <JoinUs />
-            <HomeButton />
-            <HomeButton />
-            <HomeButton />
+            <HomeButton title="Minister"/>
+            <HomeButton title="Live"/>
+            <HomeButton title="Give"/>
         </div>
     )
 }

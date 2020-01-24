@@ -1,9 +1,23 @@
-.video-container{
-    width:100%;
-    max-width: 100%;
-    /* overflow: auto; */
+.video-container {
+  width: 100%;
+  max-width: 100%;
+  /* overflow: auto;
+    position: absolute; */
 }
 .background-video {
-    width: 100%;
-    
+  width: 100%;
+}
+#myVideo {
+  max-width: 100%;
+}
+.content {
+  height: 100px;
+  position: absolute;
+  bottom: -23%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+
+  max-width: 100%;
+  /* background: rgba(0, 0, 0, 0.5); */
+  /* color: #f1f1f1; */
 }
