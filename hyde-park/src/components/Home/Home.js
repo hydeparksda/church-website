@@ -4,8 +4,6 @@ import HomeVideoBackground from '../HomeVideoBackground/HomeVideoBackground';
 import HomeButton from '../HomeButton/HomeButton'
 import './Home.css'
 import JoinUs from '../JoinUs/JoinUs';
-import MiddleButton from '../HomeButton/MiddleButton/MiddleButton';
-
 
 const Home = () => {
     return (
@@ -13,13 +11,9 @@ const Home = () => {
             <MainNav />
             <HomeVideoBackground />
             <JoinUs />
-            {/* <HomeButton>
-            </HomeButton>
-            <HomeButton>
-                <MiddleButton/>
-            </HomeButton>
-            <HomeButton>
-            </HomeButton> */}
+            <HomeButton />
+            <HomeButton />
+            <HomeButton />
         </div>
     )
 }
