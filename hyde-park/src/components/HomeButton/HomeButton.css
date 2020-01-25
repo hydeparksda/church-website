@@ -1,21 +1,21 @@
 .side-button {
-   
-    background: #d5a93b;
-    color: black;
-
-  
+  background: #d5a93b;
+  color: black;
 }
 .middle-button {
-    background: black;
-    color: white;
-    
+  color: white;
+  background: black;
 }
-.middle-button, .side-button {
-    font-size:2rem;
-    text-align: center;
-    width: 33%;
-    height: 300px;
-    float:left;
-    letter-spacing: 2px;
-    font-weight: 700;
+.middle-button,
+.side-button {
+  font-size: 2rem;
+  text-align: center;
+  width: 33%;
+  height: 10%;
+  float: left;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+span {
+  color: white;
 }

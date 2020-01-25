@@ -11,13 +11,13 @@ const Home = () => {
         <div className="home">
             <MainNav />
             <HomeVideoBackground />
-            <HomeButton title="Minister">
+            <HomeButton title="Minister" color="#d5a93b">
             <FaPrayingHands/>
             </HomeButton>
-            <HomeButton title="Watch" position="middle">
+            <HomeButton title="Watch" position="middle" color="black">
             <FaYoutube/>
             </HomeButton>
-            <HomeButton title="Give">
+            <HomeButton title="Give" color="#d5a93b">
                 <FaHandHoldingHeart/>
             </HomeButton>
             <Footer />
