@@ -5,7 +5,7 @@ const HomeButton = props => {
   const conditionalStyle = position =='middle' ? 'middle-button': 'side-button'
   return (
     <div className={conditionalStyle}>
-      {title}
+      {title.toUpperCase()}
     </div>
   )
 }
