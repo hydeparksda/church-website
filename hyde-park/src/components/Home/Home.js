@@ -4,6 +4,7 @@ import HomeVideoBackground from '../HomeVideoBackground/HomeVideoBackground';
 import HomeButton from '../HomeButton/HomeButton'
 import './Home.css'
 import JoinUs from '../JoinUs/JoinUs';
+import Footer from '../Footer/Footer'
 
 const Home = () => {
     return (
@@ -11,10 +12,10 @@ const Home = () => {
             <MainNav />
             <HomeVideoBackground />
             <HomeButton title="Minister"/>
-            <HomeButton title="Live"/>
+            <HomeButton title="Live" position="middle"/>
             <HomeButton title="Give"/>
+            <Footer />
         </div>
     )
 }
-
 export default Home;

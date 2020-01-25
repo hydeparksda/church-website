@@ -1,13 +1,12 @@
 import React from 'react';
 import './HomeButton.css'
-
 const HomeButton = props => {
-  const {title} = props;
+  const {title, position} = props;
+  const conditionalStyle = position =='middle' ? 'middle-button': 'side-button'
   return (
-    <div className="home-button">
+    <div className={conditionalStyle}>
       {title}
     </div>
   )
 }
-
 export default HomeButton;
