@@ -4,16 +4,22 @@ import HomeVideoBackground from '../HomeVideoBackground/HomeVideoBackground';
 import HomeButton from '../HomeButton/HomeButton'
 import './Home.css'
 import JoinUs from '../JoinUs/JoinUs';
-import Footer from '../Footer/Footer'
-
+import Footer from '../Footer/Footer';
+import { FaPrayingHands, FaYoutube, FaHandHoldingHeart } from 'react-icons/fa';
 const Home = () => {
     return (
         <div className="home">
             <MainNav />
             <HomeVideoBackground />
-            <HomeButton title="Minister"/>
-            <HomeButton title="Live" position="middle"/>
-            <HomeButton title="Give"/>
+            <HomeButton title="Minister">
+            <FaPrayingHands/>
+            </HomeButton>
+            <HomeButton title="Watch" position="middle">
+            <FaYoutube/>
+            </HomeButton>
+            <HomeButton title="Give">
+                <FaHandHoldingHeart/>
+            </HomeButton>
             <Footer />
         </div>
     )

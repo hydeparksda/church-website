@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { FaFacebookF, FaTwitter, FaInstagram, FaHandHoldingHeart} from 'react-icons/fa';
+import { FaFacebookF, FaTwitter, FaInstagram, FaCookieBite} from 'react-icons/fa';
 
 const Footer = () => {
     return (
@@ -40,7 +40,7 @@ const Footer = () => {
                         <p class="ml-5">&copy; Copyright 2020. All rights reserved.</p>
                     </div>
                     <div class="d-flex align-items-center justify-content-center">
-                        <p class="ml-5">Website developed by Derek S. &amp; Rizel B. <FaHandHoldingHeart/></p>
+                        <p class="ml-5">Website developed by Derek S. &amp; Rizel B. <FaCookieBite/></p>
                     </div>
                 </div>
             </footer>
