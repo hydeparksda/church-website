@@ -1,7 +1,11 @@
 import React from 'react';
 import './Footer.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+
 const Footer = () => {
     return (
+       
         <div className="footer">
             <footer>
                 <div class="container">
@@ -22,7 +26,7 @@ const Footer = () => {
                         </div>
                         <ul class="d-flex">
                             <li class="mr-20">
-                                <a href="/"><i class="fab fa-instagram large"></i></a>
+                                <a href="/"> <FontAwesomeIcon icon={faCoffee} /></a>
                             </li>
                             <li class="mr-20">
                                 <a href="/"><i class="fab fa-linkedin-in large"></i></a>
@@ -33,8 +37,10 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div class="d-flex align-items-center justify-content-center">
-                        <i class="far fa-copyright"></i>
                         <p class="ml-5">&copy; Copyright 2020. All rights reserved.</p>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <p class="ml-5">Website developed by Derek S. &amp; Rizel B.</p>
                     </div>
                 </div>
             </footer>
