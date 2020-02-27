@@ -3,7 +3,9 @@ import MainNav from '../MainNav/MainNav';
 import HomeVideoBackground from '../HomeVideoBackground/HomeVideoBackground';
 import HomeButton from '../HomeButton/HomeButton'
 import './Home.css'
-import JoinUs from '../JoinUs/JoinUs';
+import JoinUsBanner from '../JoinUsBanner/JoinUsBanner';
+import LocationBanner from '../LocationBanner/LocationBanner';
+
 import Footer from '../Footer/Footer';
 import { FaPrayingHands, FaYoutube, FaHandHoldingHeart } from 'react-icons/fa';
 const Home = () => {
@@ -11,6 +13,8 @@ const Home = () => {
         <div className="home">
             <MainNav />
             <HomeVideoBackground />
+            <JoinUsBanner/>
+            <LocationBanner/>
             <HomeButton title="Minister" color="#d5a93b">
             <FaPrayingHands/>
             </HomeButton>

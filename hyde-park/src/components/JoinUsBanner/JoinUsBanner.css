@@ -1,0 +1,24 @@
+.JoinUsBanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    color: white;
+    background-color: #d5a93b;
+    width: 100%;
+    height: 400px;
+}
+.ServicesTime {
+    text-align: center;
+}
+h1 {
+    font-size: 4.5em;
+}
+h2 {
+    font-style: italic;
+    font-size: 3.5em;
+}
+h3 {
+    font-size: 2.5em;
+}
