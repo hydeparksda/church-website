@@ -1,0 +1,100 @@
+.AboutUs {
+    background-color:  rgb(213,169,58);
+    color:white;
+
+}
+.SDABanner {
+    background-image: url("SDALogo.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;  
+    background-size: contain;
+    background-position: center;
+   background-color: rgb(247,247,247);
+    height: 400px;
+    width: 100%;
+}
+
+.PastorContent {
+    
+    height: 300px;
+    width: 100%;
+}
+  
+  .container {
+    padding: 64px;
+   background-color:rgb(213,169,58);
+   max-width: 100%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .column-66 {
+    float: left;
+    width: 66.66666%;
+    padding: 20px;
+  }
+  
+  .column-33 {
+    float: left;
+    width: 33.33333%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+  }
+  
+  .large-font {
+    font-size: 48px;
+  }
+  
+  .OurPastor {
+    text-shadow: 2px 2px 4px #000000;
+
+    font-size: 64px
+  }
+  
+  .button {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+  }
+  .AboutUsContent {
+    /* position: absolute; Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: white; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+      font-size: 1.2rem;
+      border-radius: 20px;
+
+      /* text-shadow: 1px 1px 2px black, 0 0 5px black, 0 0 5px black; */
+
+  }
+  img {
+    display: block;
+    height: 471px;
+    width: 471px;
+    border-radius: 20px;
+    max-width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .column-66,
+    .column-33 {
+      width: 100%;
+      text-align: center;
+    }
+    img {
+      margin: auto;
+    }
+  }
