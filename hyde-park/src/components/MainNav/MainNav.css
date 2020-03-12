@@ -3,43 +3,55 @@
   height:100%;
   width: 100%;
 }
+
 .list_link {
- color: white;
- font-weight: 600;
- letter-spacing: 2px;
- text-decoration: none;
- background: black;
- padding: 45px 5px;
- display: inline-block;
- width: 100%;
- text-align: center;
+   color: black;
+   font-weight: 600;
+   letter-spacing: 2px;
+   text-decoration: none;
+   background: white;
+   padding: 45px 5px;
+   display: inline-block;
+   width: 100%;
+   text-align: center;
 }
 .logo_container {
-   background: black;
+   margin: 10px;
+   background: white;
 }
+
 li img {
    width: 80px;
    height:inherit;
-   background: black;
+   background: white;
+   border-radius: 0;
+   box-shadow: 0 0; 
+   margin: auto;
 }
 .list_link:hover {
- background:#d5a93b;
+   background:grey;
+   color: white;
+   text-decoration: none;
 }
+.list_link:focus {
+   background: grey;
+   color: white;
+  }
 
 
 .navigation ul {
- list-style: none;
- margin: 0;
- padding: 0;
- display: flex;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
 }
 
 .navigation li {
- flex: 3;    
+   flex: 3;    
 }
 
 .navigation .user {
- flex: 1;
+   flex: 1;
 }
 
 @media all and (max-width: 1000px) {

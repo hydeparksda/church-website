@@ -1,5 +1,4 @@
 import React from 'react';
-import MainNav from '../MainNav/MainNav';
 import HomeVideoBackground from '../HomeVideoBackground/HomeVideoBackground';
 import HomeButton from '../HomeButton/HomeButton'
 import './Home.css'
@@ -11,7 +10,6 @@ import { FaPrayingHands, FaYoutube, FaHandHoldingHeart } from 'react-icons/fa';
 const Home = () => {
     return (
         <div className="home">
-            <MainNav />
             <HomeVideoBackground />
             <JoinUsBanner />
             <LocationBanner />
