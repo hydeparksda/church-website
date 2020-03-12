@@ -14,19 +14,19 @@ const Footer = () => {
   return (
     <div className="footer">
       <footer>
-        <div class="container">
-          <div class="d-flex justify-content-between mb-50">
+        <div className="container">
+          <div className="d-flex justify-content-between mb-50">
             <div>
-              <p class="mb-15">
+              <p className="mb-15">
                 <a href="/">Quick Links</a>
               </p>
-              <p class="mb-15">
+              <p className="mb-15">
                 <a href="/">About Us</a>
               </p>
-              <p class="mb-15">
+              <p className="mb-15">
                 <a href="/">Sermons</a>
               </p>
-              <p class="mb-15">
+              <p className="mb-15">
                 <a href="/">Events</a>
               </p>
               <p>
@@ -37,21 +37,21 @@ const Footer = () => {
               </p>
             </div>
             <div>
-              <p class="mb-15">
+              <p className="mb-15">
                 <a href="/">Hyde Park Seventh-day Adventist Church</a>
               </p>
-              <p class="mb-15">
+              <p className="mb-15">
                 <a href="/">6 Webster Street</a>
               </p>
-              <p class="mb-15">
+              <p className="mb-15">
                 <a href="/">Hyde Park, MA 02136</a>
               </p>
               <p>
                 <a href="/">(617) 361-6581</a>
               </p>
             </div>
-            <ul class="d-flex">
-              <li class="mr-20">
+            <ul className="d-flex">
+              <li className="mr-20">
                 <AwesomeButtonSocial
                   cssModule={AwesomeButtonStyles}
                   type="facebook"
@@ -59,7 +59,7 @@ const Footer = () => {
                 />
                 {/* <a href="/"> <FaFacebookF/></a> */}
               </li>
-              <li class="mr-20">
+              <li className="mr-20">
                 <AwesomeButtonSocial
                   cssModule={AwesomeButtonStyles}
                   type="instagram"
@@ -77,11 +77,11 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div class="d-flex align-items-center justify-content-center">
-            <p class="ml-5">&copy; Copyright 2020. All rights reserved.</p>
+          <div className="d-flex align-items-center justify-content-center">
+            <p className="ml-5">&copy; Copyright 2020. All rights reserved.</p>
           </div>
-          <div class="d-flex align-items-center justify-content-center">
-            <p class="ml-5">
+          <div className="d-flex align-items-center justify-content-center">
+            <p className="ml-5">
               Website developed by Derek S. &amp; Rizel B. <FaCookieBite />
             </p>
           </div>
