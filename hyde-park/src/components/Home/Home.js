@@ -3,6 +3,9 @@ import MainNav from '../MainNav/MainNav';
 import HomeVideoBackground from '../HomeVideoBackground/HomeVideoBackground';
 import HomeButton from '../HomeButton/HomeButton'
 import './Home.css'
+import {
+  Link
+} from "react-router-dom";
 import JoinUsBanner from '../JoinUsBanner/JoinUsBanner';
 import LocationBanner from '../LocationBanner/LocationBanner';
 
