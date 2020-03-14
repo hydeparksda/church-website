@@ -14,7 +14,7 @@ const Home = () => {
             <HomeVideoBackground />
             <JoinUsBanner />
             <LocationBanner />
-            <HomeButton title="Love" color="#d5a93b">
+            {/* <HomeButton title="Love" color="#d5a93b">
                 <FaPrayingHands />
             </HomeButton>
             <HomeButton title="Serve" position="middle" color="#aa3148">
@@ -22,7 +22,7 @@ const Home = () => {
             </HomeButton>
             <HomeButton title="Transform" color="#d5a93b">
                 <FaHandHoldingHeart />
-            </HomeButton>
+            </HomeButton> */}
             {/* <Footer /> */}
         </div>
     )

@@ -31,7 +31,7 @@ const AboutUs = () => {
             </div>
           </div>
           <div class="column-33">
-            <img src={PastorPhoto} width="335" height="471" />
+            <img className="PastorPhoto" src={PastorPhoto} width="335" height="471" />
           </div>
         </div>
       </div>
