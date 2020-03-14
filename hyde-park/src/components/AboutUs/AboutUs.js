@@ -48,18 +48,6 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-      <JoinUsBanner />
-      <LocationBanner />
-      <HomeButton title="Minister" color="#d5a93b">
-        <FaPrayingHands />
-      </HomeButton>
-      <HomeButton title="Watch" position="middle" color="black">
-        <FaYoutube />
-      </HomeButton>
-      <HomeButton title="Give" color="#d5a93b">
-        <FaHandHoldingHeart />
-      </HomeButton>
-      <Footer />
     </div>
   )
 }

@@ -6,6 +6,7 @@ import JoinUsBanner from '../JoinUsBanner/JoinUsBanner';
 import LocationBanner from '../LocationBanner/LocationBanner';
 
 import Footer from '../Footer/Footer';
+import { Parallax } from 'react-scroll-parallax';
 import { FaPrayingHands, FaYoutube, FaHandHoldingHeart } from 'react-icons/fa';
 const Home = () => {
     return (
@@ -13,16 +14,16 @@ const Home = () => {
             <HomeVideoBackground />
             <JoinUsBanner />
             <LocationBanner />
-            <HomeButton title="Minister" color="#d5a93b">
+            <HomeButton title="Love" color="#d5a93b">
                 <FaPrayingHands />
             </HomeButton>
-            <HomeButton title="Watch" position="middle" color="black">
+            <HomeButton title="Serve" position="middle" color="#aa3148">
                 <FaYoutube />
             </HomeButton>
-            <HomeButton title="Give" color="#d5a93b">
+            <HomeButton title="Transform" color="#d5a93b">
                 <FaHandHoldingHeart />
             </HomeButton>
-            <Footer />
+            {/* <Footer /> */}
         </div>
     )
 }

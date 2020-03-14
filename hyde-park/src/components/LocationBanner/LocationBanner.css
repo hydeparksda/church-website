@@ -8,7 +8,7 @@
     background-image: url('MainChurchPhoto.jpg');
     /* filter: grayscale(100%); */
     color: #d5a93b;
-    text-shadow: 2px 2px #ff0000;
+    text-shadow: 2px 2px #aa3148;
 
     opacity: 0.7;
     background-size: cover;
@@ -21,8 +21,8 @@
 .LocationBanner > h1 {
     font-size: 5.5em;
 }
-.LocationBanner > h2 {
+.LocationBanner > h3 {
     color: #d5a93b;
-    font-style: italic;
-    font-size: 5.5em;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4.5em;
 }

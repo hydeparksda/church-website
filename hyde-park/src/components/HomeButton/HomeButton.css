@@ -4,17 +4,19 @@
 }
 .middle-button {
   color: white;
-  background: black;
+  background: #aa3148;
 }
 .middle-button,
 .side-button {
-  font-size: 2rem;
+ 
   text-align: center;
-  width: 33%;
-  height: 10%;
+  width: 33.33%;
+  height: 80px;
   float: left;
   letter-spacing: 2px;
   font-weight: 700;
+  display: flex; 
+  
 }
 span {
   color: white;

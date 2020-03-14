@@ -8,13 +8,14 @@ import {
   FaCookieBite
 } from "react-icons/fa";
 import { AwesomeButtonSocial } from "react-awesome-button";
+// import SdaLogo from '../../'
 import AwesomeButtonStyles from "react-awesome-button/src/styles/styles.scss";
 
 const Footer = () => {
   return (
     <div className="footer">
       <footer>
-        <div class="container">
+        <div class="footer-container">
           <div class="d-flex justify-content-between mb-50">
             <div>
               <p class="mb-15">
@@ -84,6 +85,7 @@ const Footer = () => {
             <p class="ml-5">
               Website developed by Derek S. &amp; Rizel B. <FaCookieBite />
             </p>
+         {/* <SdaLogo />    */}
           </div>
         </div>
       </footer>

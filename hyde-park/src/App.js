@@ -5,22 +5,27 @@ import Sermons from './components/Sermons/Sermons';
 import Give from './components/Give/Give';
 import Events from './components/Events/Events';
 import MainNav from './components/MainNav/MainNav';
+import Footer from './components/Footer/Footer';
 import { Route, BrowserRouter, Switch } from 'react-router-dom';
+import { ParallaxProvider } from 'react-scroll-parallax';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-        <MainNav />
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/aboutus" component={AboutUs} />
-          <Route path="/sermons" component={Sermons} />
-          <Route path="/give" component={Give} />
-          <Route path="/events" component={Events} />
-        </Switch>
-      </BrowserRouter>
+      <ParallaxProvider>
+        <BrowserRouter>
+          <MainNav />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/aboutus" component={AboutUs} />
+            <Route path="/sermons" component={Sermons} />
+            <Route path="/give" component={Give} />
+            <Route path="/events" component={Events} />
+          </Switch>
+          <Footer />
+        </BrowserRouter>
+      </ParallaxProvider>
     </div>
   );
 }

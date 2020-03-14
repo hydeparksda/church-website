@@ -29,12 +29,12 @@ li img {
    margin: auto;
 }
 .list_link:hover {
-   background:grey;
+   background:lightgrey;
    color: white;
    text-decoration: none;
 }
 .list_link:focus {
-   background: grey;
+   background: lightgrey;
    color: white;
   }
 
