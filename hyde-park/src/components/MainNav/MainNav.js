@@ -11,7 +11,7 @@ const MainNav = () => (
         <li><Link className="list_link" to={'/'}>Home</Link></li>
         <li><Link className="list_link" to={'/newhere'}>New Here?</Link></li>
         <li><Link className="list_link" to={'/aboutus'}>About Us</Link></li>
-        <li className="logo_container"><Link to={'/'}><img src={ourLogo}/></Link></li>
+        <li className="logo_container"><Link to={'/'}><img className="imglogo" src={ourLogo}/></Link></li>
         <li><Link className="list_link" to={'/sermons'}>Sermons</Link></li>
         <li><Link className="list_link" to={'/events'}>Events</Link></li>
         <li><Link className="list_link" to={'/give'}>Give</Link></li>

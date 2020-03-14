@@ -1,10 +1,10 @@
 .side-button {
-  background: #d5a93b;
+  background: white;
   color: black;
 }
 .middle-button {
-  color: white;
-  background: #aa3148;
+  color: #d5a93b;;
+  background: white;
 }
 .middle-button,
 .side-button {
@@ -19,5 +19,5 @@
   
 }
 span {
-  color: white;
+  color: #aa3148;
 }
