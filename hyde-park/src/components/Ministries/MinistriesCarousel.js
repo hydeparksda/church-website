@@ -6,7 +6,7 @@ import 'react-animated-slider/build/horizontal.css';
 const MinistriesCarousel = () => {
   return (
     <Slider>
-{content.map((item, index) => (
+{/* {content.map((item, index) => (
 	<div
 		key={index}
 		style={{ background: `url('${item.image}') no-repeat center center` }}
@@ -17,7 +17,7 @@ const MinistriesCarousel = () => {
 			<button>{item.button}</button>
 		</div>
 	</div>
-))}
+))} */}
 </Slider>
   );
 };
