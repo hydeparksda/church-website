@@ -9,14 +9,17 @@ import PastorPhoto from './PastorPhoto.jpg';
 import HydeParkLogo2 from './HydeParkLogo2.png';
 import Overlay from 'react-image-overlay'
 import Card from 'react-bootstrap/Card';
-
 import Footer from '../Footer/Footer';
 import { FaPrayingHands, FaYoutube, FaHandHoldingHeart } from 'react-icons/fa';
+import HistoryTabOne from './HistoryTabOne';
+import HistoryTabTwo from './HistoryTabTwo';
+import HistoryTabThree from './HistoryTabThree';
+import MissionTab from './MissionTab';
+import MinistriesCarousel from '../Ministries/MinistriesCarousel'
+
 const AboutUs = () => {
   return (
     <div className="AboutUs">
-      <div className="SDABanner">
-      </div>
 
       <div class="container">
         <div class="row">
@@ -35,18 +38,24 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-      <div class="container" >
-        <div class="row">
-          <div class="column-33">
-            <img src={HydeParkLogo2} alt="App" width="335" height="471" />
-          </div>
-          <div class="column-66">
-            <h1 class="xlarge-font"><b>Clarity</b></h1>
-            <h1 class="large-font" ><b>Pixels, who?</b></h1>
-            <p><span>A revolution in resolution.</span> Sharp and clear photos with the world's best photo engine, incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-            <button class="button" >Read More</button>
-          </div>
-        </div>
+      <MinistriesCarousel />
+      <MissionTab />
+      <div className="History">
+        <h1>From a Mission to a Church</h1>
+        <h2>January 1987 - January 1996</h2>
+      </div>
+      <HistoryTabOne />
+      <div className="History">
+        <h1>Mattapan Church</h1>
+        <h2>February 1996 - December 2010</h2>
+      </div>
+      <HistoryTabTwo />
+      <div className="History">
+        <h1>The Hyde Park SDA Church</h1>
+        <h2>January 2011 - Present</h2>
+      </div>
+      <HistoryTabThree />
+      <div className="SDABanner">
       </div>
     </div>
   )

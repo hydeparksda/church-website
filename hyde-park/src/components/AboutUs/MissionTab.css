@@ -1,0 +1,26 @@
+.MissionTab {
+    background-color: white;
+    color: black;
+}
+
+.mission-container {
+    padding: 64px;
+   background-color:white;
+   max-width: 100%;
+  }
+  /* Slide in left animation */
+  .MissionTitle {
+    animation: slide-left 3s;
+  }
+  
+  @keyframes slide-left {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
