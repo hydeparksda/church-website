@@ -4,13 +4,20 @@
 }
 
 .mission-container {
-    padding: 64px;
+   padding: 64px;
    background-color:white;
    max-width: 100%;
   }
   /* Slide in left animation */
   .MissionTitle {
     animation: slide-left 3s;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  .MStatement {
+    font-size: 25px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
   }
   
   @keyframes slide-left {

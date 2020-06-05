@@ -1,0 +1,36 @@
+.PastorTab {
+    background-color:#E0E0E0;
+    color: black;
+}
+
+.pastor-container {
+   padding: 64px;
+   background-color:#E0E0E0;
+   max-width: 100%;
+  }
+  /* Slide in left animation */
+  .PastorTitle {
+    animation: slide-left 3s;
+    font-family: 'Poppins', sans-serif;
+  }
+  .pastor-image {
+      height: 400px;
+      width: 400px;
+  }
+  .MStatement {
+    font-size: 25px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  @keyframes slide-left {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }

@@ -15,15 +15,18 @@ import HistoryTabOne from './HistoryTabOne';
 import HistoryTabTwo from './HistoryTabTwo';
 import HistoryTabThree from './HistoryTabThree';
 import MissionTab from './MissionTab';
+import OurPastor from './OurPastor';
 import MinistriesCarousel from '../Ministries/MinistriesCarousel'
 
 const AboutUs = () => {
   return (
     <div className="AboutUs">
-
-      <div class="container">
+        <MissionTab />
+        <OurPastor />
+      {/* <div class="container">
         <div class="row">
           <div class="column-66">
+          <MissionTab />
             <h1 class="OurPastor">Our Pastor</h1>
             <div className="AboutUsContent">
               <p>
@@ -39,7 +42,7 @@ const AboutUs = () => {
         </div>
       </div>
       <MinistriesCarousel />
-      <MissionTab />
+     
       <div className="History">
         <h1>From a Mission to a Church</h1>
         <h2>January 1987 - January 1996</h2>
@@ -56,7 +59,7 @@ const AboutUs = () => {
       </div>
       <HistoryTabThree />
       <div className="SDABanner">
-      </div>
+      </div> */}
     </div>
   )
 }
