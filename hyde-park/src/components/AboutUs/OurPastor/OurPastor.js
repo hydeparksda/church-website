@@ -1,15 +1,8 @@
 import React from 'react';
-import MainNav from '../MainNav/MainNav';
-import HomeVideoBackground from '../HomeVideoBackground/HomeVideoBackground';
-import HomeButton from '../HomeButton/HomeButton'
 import './OurPastor.css'
-import JoinUsBanner from '../JoinUsBanner/JoinUsBanner';
-import LocationBanner from '../LocationBanner/LocationBanner';
-import PastorPhoto from './PastorPhoto.jpg';
-import PastorPhoto2 from '../../Banners/pastor2.png';
-import HydeParkLogo2 from './HydeParkLogo2.png';
-import Overlay from 'react-image-overlay'
-import Card from 'react-bootstrap/Card';
+import PastorPhoto from '../../../Banners/PastorPhoto.jpg';
+import PastorPhoto2 from '../../../Banners/pastor2.png';
+
 
 const OurPastor = () => {
   return (

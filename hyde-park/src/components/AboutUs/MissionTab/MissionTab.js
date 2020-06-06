@@ -1,20 +1,6 @@
 import React from 'react';
-import MainNav from '../MainNav/MainNav';
-import HomeVideoBackground from '../HomeVideoBackground/HomeVideoBackground';
-import HomeButton from '../HomeButton/HomeButton'
 import './MissionTab.css'
-import JoinUsBanner from '../JoinUsBanner/JoinUsBanner';
-import LocationBanner from '../LocationBanner/LocationBanner';
-import PastorPhoto from './PastorPhoto.jpg';
-import YouthImage from '../../Banners/youthpic.jpg';
-import Overlay from 'react-image-overlay'
-import Card from 'react-bootstrap/Card';
-import Footer from '../Footer/Footer';
-import { FaPrayingHands, FaYoutube, FaHandHoldingHeart } from 'react-icons/fa';
-import HistoryTabOne from './HistoryTabOne';
-import HistoryTabTwo from './HistoryTabTwo';
-import HistoryTabThree from './HistoryTabThree';
-
+import YouthImage from '../../../Banners/youthpic.jpg';
 
 const MissionTab = () => {
   return (

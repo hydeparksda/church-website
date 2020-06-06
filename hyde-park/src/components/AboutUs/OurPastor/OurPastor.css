@@ -11,6 +11,7 @@
   /* Slide in left animation */
   .PastorTitle {
     animation: slide-left 3s;
+    text-shadow: 2px 2px 4px #000000;
     font-family: 'Poppins', sans-serif;
     color: white;
   }
@@ -31,6 +32,7 @@
   }
   .PStatement {
     font-size: 20px;
+    text-shadow: 2px 2px 4px #000000;
     color: #E0E0E0;;
     font-weight: 900px;
     font-family: 'Poppins', sans-serif;

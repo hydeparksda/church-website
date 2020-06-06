@@ -1,14 +1,13 @@
 import React from 'react';
-import HydeParkLogo2 from './HydeParkLogo2.png';
-import pathfinderFieldDay from '../../Banners/Amanda.jpg'
-import signing from '../../Banners/signing.jpg'
-import nature from '../../Banners/nature.jpg'
-import Camp from '../../Banners/winnekeag.jpg'
-import cuteKids from '../../Banners/cutekids.jpg'
-import TheBoys from '../../Banners/boysAdventurer.jpg'
-import DrumCorp from '../../Banners/drumcorp.jpg'
-import TwoGenerations from'../../Banners/churchladiesandbaby.jpg'
-import sisters from '../../Banners/sisters.jpg'
+import pathfinderFieldDay from '../../../Banners/Amanda.jpg'
+import signing from '../../../Banners/signing.jpg'
+import nature from '../../../Banners/nature.jpg'
+import Camp from '../../../Banners/winnekeag.jpg'
+import cuteKids from '../../../Banners/cutekids.jpg'
+import TheBoys from '../../../Banners/boysAdventurer.jpg'
+import DrumCorp from '../../../Banners/drumcorp.jpg'
+import TwoGenerations from'../../../Banners/churchladiesandbaby.jpg'
+import sisters from '../../../Banners/sisters.jpg'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 

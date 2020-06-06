@@ -1,7 +1,7 @@
 import React from 'react';
-import HydeParkLogo2 from './HydeParkLogo2.png';
-import Singer from '../../Banners/elizabethA.jpg'
-import presentDay from '../../Banners/presentDay.jpg'
+import Singer from '../../../Banners/elizabethA.jpg'
+import presentDay from '../../../Banners/presentDay.jpg'
+import './HistoryTabThree.css'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
  

@@ -89,6 +89,12 @@
   .History {
     text-align: center;
   }
+  .History > h2 {
+    width: 60%;
+    background:	#d5a93b;
+    color: white;
+    border-radius: 5px;
+  }
   @media screen and (max-width: 1000px) {
     .column-66,
     .column-33 {
