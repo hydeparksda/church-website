@@ -41,7 +41,10 @@ li img {
    color: white;
   }
 
-
+.navigation {
+   box-shadow: 3px 3px 		#F5F5F5;
+   margin-bottom: 4px;
+}
 .navigation ul {
    list-style: none;
    margin: 0;

@@ -1,0 +1,11 @@
+.vertical-timeline-element-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.vertical-timeline::before {
+    color: black;
+    background: black;
+}
