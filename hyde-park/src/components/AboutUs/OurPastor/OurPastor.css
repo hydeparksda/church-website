@@ -1,6 +1,7 @@
 .PastorTab {
     background-color:#E0E0E0;
     color: black;
+    clip-path: polygon(0 7%, 100% 0, 100% 94%, 0 100%);
 }
 
 .pastor-container {

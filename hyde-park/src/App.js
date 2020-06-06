@@ -1,6 +1,7 @@
 import React from 'react';
 import Home from './components/Home/Home';
 import AboutUs from './components/AboutUs/AboutUs';
+import NewHere from './components/NewHere/NewHere';
 import Sermons from './components/Sermons/Sermons';
 import Give from './components/Give/Give';
 import Events from './components/Events/Events';
@@ -22,6 +23,7 @@ function App() {
             <Route path="/sermons" component={Sermons} />
             <Route path="/give" component={Give} />
             <Route path="/events" component={Events} />
+            <Route path="/newhere" component={NewHere} />
           </Switch>
           <Footer />
         </BrowserRouter>
