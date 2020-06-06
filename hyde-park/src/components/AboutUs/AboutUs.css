@@ -1,7 +1,7 @@
 .AboutUs {
-    background-color:  rgb(213,169,58);
+    background-color: lightgrey;
     color:white;
-
+    font-family: 'Poppins', sans-serif;
 }
 .SDABanner {
     background-image: url("SDALogo.png");
