@@ -10,7 +10,7 @@ import 'react-vertical-timeline-component/style.min.css';
     <VerticalTimelineElement
       className="vertical-timeline-element--work"
       contentStyle={{ background: '#aa3148', color: '#fff' }}
-      contentArrowStyle={{ borderRight: '7px solid  #aa3148' }}
+      contentArrowStyle={{ borderRight: '7px solid  darkgrey' }}
       iconStyle={{ background: '#aa3148', color: '#fff' }}
       icon={HydeParkLogo2}
     >
@@ -19,7 +19,7 @@ import 'react-vertical-timeline-component/style.min.css';
     <VerticalTimelineElement
       className="vertical-timeline-element--work"
       contentStyle={{ background: '#aa3148', color: '#fff' }}
-      contentArrowStyle={{ borderRight: '7px solid  #aa3148' }}
+      contentArrowStyle={{ borderRight: '7px solid  darkgrey' }}
       iconStyle={{ background: '#aa3148', color: '#fff' }}
       icon={HydeParkLogo2}
     >

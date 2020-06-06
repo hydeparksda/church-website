@@ -1,5 +1,6 @@
 import React from 'react';
 import HydeParkLogo2 from './HydeParkLogo2.png';
+import Pathfinders from '../../Banners/pathfinders.jpg'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
  
@@ -12,7 +13,6 @@ import 'react-vertical-timeline-component/style.min.css';
       contentStyle={{ background: '#aa3148', color: '#fff' }}
       contentArrowStyle={{ borderRight: '7px solid  #aa3148' }}
       iconStyle={{ background: '#aa3148', color: '#fff' }}
-      icon={HydeParkLogo2}
     >
      <p>In 1985 several members of the Berea Seventh-day Adventist Church in Dorchester, Massachusetts, discussed the possibility of establishing a church in another section of  Boston, Massachusetts, namely Mattapan. This possibility became a reality in the summer of 1986 when Michael R. Bernard, then pastor of the Berea church, completed a series of evangelistic meetings in Mattapan. A special committee was formed and on October 12, 1986, the Berea Seventh-day Adventist Church Board accepted the committee’s recommendation and voted that a mission be organized.</p>       
     </VerticalTimelineElement>
@@ -59,6 +59,7 @@ import 'react-vertical-timeline-component/style.min.css';
       iconStyle={{ background: '#aa3148', color: '#fff' }}
       icon={HydeParkLogo2}
     >
+     <img src={Pathfinders} height="300px" width="auto"/>
      <p>From the growth of the children and youth of the Mattapan Mission, there spawned the need for a Pathfinder club. On January 31, 1993, with high excitement among the parents and enthusiastic members, the Mezuzah Pathfinder Club was born with Esther Reid at the helm as director and Marvwrick Turner and Cynthia Reid Morrison as deputy directors. The Mezuzah Pathfinder Club made great strides and received several awards from the Northeastern Conference Youth Ministries Department.</p>       
     </VerticalTimelineElement>
     <VerticalTimelineElement
