@@ -19,9 +19,10 @@ Whether you are searching for a church to visit, are a seeker, have not been to 
 
 We have programs designed for children and youth to young adults and adults, so regardless of your age or stage in life, you’re invited to join us anytime—online or in person.</p>
       <Button className="new-here-button give-button">
-        <a href={'https://adventistgiving.org/?fbclid=IwAR3hSoGrDM8loYTIfELt8FOfFXGqdEpCuaFL6_xsVAso25QjiSRaBntRvcE#/org/AN4FM7/envelope/start'}>Contact Us</a>
+        <a href={'#'}>Contact Us</a>
       </Button>
     </div>
+    <ContactUsForm></ContactUsForm>
     <img className="tmol-banner" src={laughingMan}></img>
   </div>
 )

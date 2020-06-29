@@ -1,5 +1,7 @@
 import React from "react";
-
+import './MyForm.scss'
+import { Button } from 'react-bootstrap';
+import laughingMan from '../../../Banners/laughing.jpg'
 export default class MyForm extends React.Component {
   constructor(props) {
     super(props);
@@ -12,18 +14,27 @@ export default class MyForm extends React.Component {
   render() {
     const { status } = this.state;
     return (
+    <div className="formContainer"   >
+     {/* <img className="tmol-banner" src={laughingMan}></img> */}
       <form
         onSubmit={this.submitForm}
         action="https://formspree.io/mrgyqjyp"
         method="POST"
       >
+        <label>Name:</label>
+        <input type="email" name="text" placeholder="What's your preferred name?" />
+        <label>Phone Number:</label>
+        <input type="email" name="phone" placeholder="What's the best phone number to reach you?" />
         <label>Email:</label>
-        <input type="email" name="email" />
+        <input type="email" name="email" placeholder="What's the best email to reach you?" />
         <label>Message:</label>
-        <input type="text" name="message" />
-        {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
+        <input type="text" name="message" placeholder="What would you like to tell the Pastor?" />
+        {status === "SUCCESS" ? <p>Thanks!</p> :       <Button className="submit-form-button give-button">
+        <a href={'#'}>Submit</a>
+      </Button>}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
       </form>
+      </div>
     );
   }
 
